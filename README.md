@@ -1,5 +1,9 @@
 # appbuilder
 
+## Documentation
+
+https://choria-io.github.io/appbuilder/
+
 ## Installation
 
 * `brew tap choria-io/tap`
