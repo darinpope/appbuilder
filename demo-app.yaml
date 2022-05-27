@@ -1,0 +1,14 @@
+name: demo
+version: 0.0.1
+description: Demo application
+author: Darin Pope <darin@planetpope.com>
+commands:
+  - name: say
+    description: Say something using the configured command
+    type: exec
+    command: |
+      echo {{ .Arguments.message | escape }}
+    arguments:
+      - name: message
+        description: The message to send to the terminal
+        required: true
